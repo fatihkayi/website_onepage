@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/image1.svg" alt="Güneşli Dağ Manzarası" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image2.svg" alt="Göl ve Dağ Manzarası" class="gallery-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <span class="prev-btn">&larr;</span>
+        <span class="next-btn">&rarr;</span>
+        <img src="" alt="Lightbox Image" class="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
